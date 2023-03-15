@@ -2,7 +2,7 @@
 
 function strip(Spot)
 {
-	return touristName.replace(/^(a| the|an)/i,'').trim();
+	return Spot.replace(/^(a| the|an)/i,'').trim();
 	
 }
 const sorted=Spot.sort((a,b)=>{
